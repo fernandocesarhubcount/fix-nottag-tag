@@ -8,7 +8,7 @@ RegEx: <([\s\d\w=\/"\':]*)>[\s\d\n\w;,.-=\/]*(<[\d\w;,.-=\/ ]*>)[\s\d\w;,.-=\/]*
 
 Example of XML:
 
-<Correcao>Quando a exigibilidade do ISSQN for <Exportacao> informar o pais da prestacao do servico.</Correcao>
+&lt;Correcao&gt;Quando a exigibilidade do ISSQN for &lt;Exportacao&gt; informar o pais da prestacao do servico.&lt;/Correcao&gt;
 
 # Corrigir uma tag, sem tag de fechamento, que não deveria ser uma tag (consertando problemas de integração)
 
@@ -20,4 +20,5 @@ RegEx: <([\s\d\w=\/"\':]*)>[\s\d\n\w;,.-=\/]*(<[\d\w;,.-=\/ ]*>)[\s\d\w;,.-=\/]*
 
 Exemplo de XML:
 
-<Correcao>Quando a exigibilidade do ISSQN for <Exportacao> informar o pais da prestacao do servico.</Correcao>
+&lt;Correcao&gt;Quando a exigibilidade do ISSQN for &lt;Exportacao&gt; informar o pais da prestacao do servico.&lt;/Correcao&gt;
+
